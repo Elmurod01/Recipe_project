@@ -1,0 +1,169 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family: "Outfit";
+    background-color: #F3E5D7;
+}
+
+.recipe {
+   padding-top: 123px;
+   padding-bottom: 124px;
+}
+.recipe-card {
+    background-color: white;
+    border-radius: 24px;
+    width: 736px;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.recipe-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.recipe-headline {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.recipe-title {
+    color: #312E2C;
+    font-family: "Young Serif";
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 40px;
+
+}
+.recipe-desc {
+    color: #5F564D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.prepartion-time{
+    background-color:#FFF7FB;
+    border-radius: 12px;
+    padding: 28px;
+}
+.prepartion-headline{
+    color: #7A284E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+.prepartion-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+}
+.prepartion-item{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5F564D;
+    line-height: 150%;
+}
+.line{
+    background-color: #E3DDD7;
+    height: 1px;
+}
+.ingrediendts-headline{
+    color: #854632;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: "Young Serif";
+    margin-bottom: 24px;
+}
+.ingrediendts-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.ingrediendts-item{
+    color: #5F564D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:150%;
+}
+.Instructions-headline{
+    font-size: 28px;
+    color: #854632;
+    font-family:"Young Serif";
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+.Instructions-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    column-gap: 16px;
+}
+.Instructions-item{
+    color: #5F564D;
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 150%;
+}
+.Nutrition-headline{
+    font-family: "Young Serif";
+    color: #854632;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+.Nutrition-table{
+    width: 100%;
+}
+.Nutrition-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5F564D;
+    line-height: 100%;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3DDD7;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+td{
+    color: #5F564D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+th{
+    color: #854632;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+
